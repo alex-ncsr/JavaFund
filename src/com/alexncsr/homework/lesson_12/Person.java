@@ -1,12 +1,12 @@
 package com.alexncsr.homework.lesson_12;
 
 public class Person {
-
     private static long id;
     private String firstName;
     private String lastName;
 
-    public Person(){
+    public Person() {
+
         id++;
     }
 
@@ -14,9 +14,6 @@ public class Person {
         return id;
     }
 
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
 
     public String getFirstName() {
         return firstName;
